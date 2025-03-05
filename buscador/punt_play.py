@@ -36,6 +36,4 @@ class PuntPlay: # se crea la clase para representar la jugada punt
         return self.__Date
     
     def __str__(self): # método para representar la instancia como una cadena de texto
-        return (f"Fecha: {self.__Date}, Tiempo: {self.__time},
-                Equipo visita: {self.__AwayTeam}, Equipo casa: {self.__HomeTeam},
-                Cuarto: {self.__qtr}, Distancia: {self.__YardsGained}")
+        return (f"Fecha: {self.__Date}, Tiempo: {self.__time}, Equipo visita: {self.__AwayTeam}, Equipo casa: {self.__HomeTeam}, Cuarto: {self.__qtr}, Distancia: {self.__YardsGained}")
